@@ -4,7 +4,7 @@ var intervalId = setInterval(function(){
 
 document.cookie = "name=oeschger; SameSite=None; Secure";
 document.cookie = "favorite_food=tripe;SameSite=None; Secure";
-document.cookie = "trip_number=0; SameSite=None; Secure";
+document.cookie = "trip_number="+ Math.random() + "; SameSite=None; Secure";
 
 function showCookies() {
   const output = document.getElementById('cookies')
