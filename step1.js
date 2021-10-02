@@ -3,7 +3,8 @@ var intervalId = setInterval(function(){
 }, 10000);
 
 document.cookie = "name=oeschger; SameSite=None; Secure";
-document.cookie = "favorite_food=tripe; trip_number=0; SameSite=None; Secure";
+document.cookie = "favorite_food=tripe;SameSite=None; Secure";
+document.cookie = "trip_number=0; SameSite=None; Secure";
 
 function showCookies() {
   const output = document.getElementById('cookies')
